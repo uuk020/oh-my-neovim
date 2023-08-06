@@ -4,9 +4,9 @@
 - Clear and reasonable folder
 - Lazy.nvim Manage plugin installation, uninstallation
 - File tree(Neotree) and search(Telescope)
+- LSP code completion, jumping, formatting
 
 ### TODO
-- LSP code completion, jumping, formatting
 - File/code fuzzy finder
 - Code highlight for any language
 
