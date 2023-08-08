@@ -5,10 +5,25 @@
 - Lazy.nvim Manage plugin installation, uninstallation
 - File tree(Neotree) and search(Telescope)
 - LSP code completion, jumping, formatting
+- File/code fuzzy finder
+
+### Keymaps
+| Shortcut   | Action    | Model    |
+|------------|-----------|-----------|
+| `Ctrl` `l` | <Ctrl w>l |  Normal   |
+| `Ctrl` `h` | <Ctrl w>h |  Normal   |
+| `Ctrl` `j` | <Ctrl w>j |  Normal   |
+| `Ctrl` `k` | <Ctrl w>k |  Normal   |
+| `<leader>` `q` | :wq   |  Normal   |
+| `<leader>` `s` | :sp   |  Normal   |
+| `<leader>` `v` | :vsp  |  Normal   |
+| `[` `d` | Get the previous diagnostic closest to the cursor position | Normal  |
+| `]` `d` | Get the next diagnostic closest to the cursor position | Normal  |
+| `<leader>` `r``n` | Renames all references  |  Normal   |
+
 
 ### TODO
-- File/code fuzzy finder
-- Code highlight for any language
+- Code hiwghlight for any language
 
 ### Reference
 - [learn-neovim](https://github.com/nshen/learn-neovim-lua)
