@@ -10,16 +10,19 @@
 ### Keymaps
 | Shortcut   | Action    | Model    |
 |------------|-----------|-----------|
-| `Ctrl` `l` | <Ctrl w>l |  Normal   |
-| `Ctrl` `h` | <Ctrl w>h |  Normal   |
-| `Ctrl` `j` | <Ctrl w>j |  Normal   |
-| `Ctrl` `k` | <Ctrl w>k |  Normal   |
-| `<leader>` `q` | :wq   |  Normal   |
-| `<leader>` `s` | :sp   |  Normal   |
-| `<leader>` `v` | :vsp  |  Normal   |
+| `Ctrl` `l` | `<Ctrl w>` `l` |  Normal   |
+| `Ctrl` `h` | `<Ctrl w>` `h` |  Normal   |
+| `Ctrl` `j` | `<Ctrl w>` `j` |  Normal   |
+| `Ctrl` `k` | `<Ctrl w>` `k` |  Normal   |
+| `<leader>` `q` | `:wq`   |  Normal   |
+| `<leader>` `s` | `:sp`   |  Normal   |
+| `<leader>` `v` | `:vsp`  |  Normal   |
 | `[` `d` | Get the previous diagnostic closest to the cursor position | Normal  |
 | `]` `d` | Get the next diagnostic closest to the cursor position | Normal  |
-| `<leader>` `r``n` | Renames all references  |  Normal   |
+| `<leader>` `r` `n` | Renames all references  |  Normal   |
+| `g` `D` | Jumps to the declaration of the symbol | Normal  |
+| `g` `d` | Jumps to the definition of the symbol  | Normal  |
+| `g` `i` | Jumps to the implementation of the symbol | Normal  |
 
 
 ### TODO
