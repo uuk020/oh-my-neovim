@@ -17,12 +17,26 @@
 | `<leader>` `q` | `:wq`   |  Normal   |
 | `<leader>` `s` | `:sp`   |  Normal   |
 | `<leader>` `v` | `:vsp`  |  Normal   |
-| `[` `d` | Get the previous diagnostic closest to the cursor position | Normal  |
-| `]` `d` | Get the next diagnostic closest to the cursor position | Normal  |
+| `[d` | Get the previous diagnostic closest to the cursor position | Normal  |
+| `]d` | Get the next diagnostic closest to the cursor position | Normal  |
+| `gD` | Jumps to the declaration of the symbol | Normal  |
+| `gd` | Jumps to the definition of the symbol  | Normal  |
+| `gi` | Jumps to the implementation of the symbol | Normal  |
+| `gr` | Displays signature information  |  Normal   |
+| `K` | Displays hover information about the symbol under the cursor  | Normal  |
 | `<leader>` `r` `n` | Renames all references  |  Normal   |
-| `g` `D` | Jumps to the declaration of the symbol | Normal  |
-| `g` `d` | Jumps to the definition of the symbol  | Normal  |
-| `g` `i` | Jumps to the implementation of the symbol | Normal  |
+| `<leader>` `k` | Displays signature information  |  Normal   |
+| `<space>` `wa` | Add the folder at path to the workspace folders.   |  Normal   |
+| `<space>` `wr` | Remove the folder at path from the workspace folders. |  Normal   |
+| `<space>` `wl` | Print list workspace folders.  |  Normal   |
+| `<space>` `D` | Jumps to the definition of the type of the symbol under the cursor  |  Normal   |
+| `<space>` `ca` | Selects a code action available at the current cursor position  |  Normal & Visual  |
+| `<space>` `f` | Formats a buffer using the attached (and optionally filtered) language server clients  |  Normal   |
+| `<leader>` `1` | Neotree toggle |  Normal   |
+| `<leader>` `p` | :Telescope find_files |  Normal   |
+| `<leader>` `P` | :Telescope live_grep |  Normal   |
+| `<leader>` `rs` | :Telescope resume |  Normal   |
+| `<leader>` `of` | :Telescope oldfiles |  Normal   |
 
 
 ### TODO
