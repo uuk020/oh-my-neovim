@@ -1,8 +1,4 @@
--- 基础设置
-require("basic")
--- 按键设置
-require("keybindings")
--- lazy.nvim
+-- 下载 lazy
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
     vim.fn.system({
@@ -15,6 +11,11 @@ if not vim.loop.fs_stat(lazypath) then
     })
 end
 vim.opt.rtp:prepend(lazypath)
+
+-- 基础设置
+require("core.basic")
+-- 按键设置
+require("core.keybindings")
 -- 加载插件
 require("lazy").setup("plugins", {
     dev = {
@@ -23,13 +24,9 @@ require("lazy").setup("plugins", {
         fallback = true,
     },
 })
-
 -- 主题设置
-vim.cmd.colorscheme("base16-tender")
--- nvim tree 必须禁止 netrw
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
--- 字体设置
-vim.o.guifont = "JetBrainsMono Nerd Font:h14"
+require("core.gui")
 -- lsp 配置
-require("lsp-config")
+require("core.lsp-config")
+-- treesitter 配置
+require("core.treesitter")

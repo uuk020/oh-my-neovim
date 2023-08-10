@@ -6,6 +6,12 @@
 - File tree(Neotree) and search(Telescope)
 - LSP code completion, jumping, formatting
 - File/code fuzzy finder
+- Code hiwghlight for any language
+
+### Requirments
+- Neovim >= 0.7
+- ripgrep
+- TSInstall language
 
 ### Keymaps
 | Shortcut   | Action    | Model    |
@@ -40,7 +46,7 @@
 
 
 ### TODO
-- Code hiwghlight for any language
+- codeium nvim
 
 ### Reference
 - [learn-neovim](https://github.com/nshen/learn-neovim-lua)

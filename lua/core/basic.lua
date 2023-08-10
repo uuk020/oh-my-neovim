@@ -71,3 +71,7 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 		})
 	end
 })
+
+-- nvim tree 必须禁止 netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
