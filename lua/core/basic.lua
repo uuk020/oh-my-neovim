@@ -25,11 +25,11 @@ set.expandtab = true
 set.autowrite = false
 vim.bo.expandtab = true
 
--- 缩进 4 个空格等于一个Tab
-set.tabstop = 4
-set.softtabstop = 4
+-- 缩进 2 个空格等于一个Tab
+set.tabstop = 2
+set.softtabstop = 2
 set.shiftround = false
-vim.bo.tabstop = 4
+vim.bo.tabstop = 2
 
 -- 不可见字符的显示，这里把空格显示为一个点, tab 显示为两个点
 set.list = true

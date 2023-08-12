@@ -7,6 +7,7 @@
 - LSP code completion, jumping, formatting
 - File/code fuzzy finder
 - Code hiwghlight for any language
+- Support codeium AI code assistant
 
 ### Requirments
 - Neovim >= 0.7
@@ -20,6 +21,10 @@
 | `Ctrl` `h` | `<Ctrl w>` `h` |  Normal   |
 | `Ctrl` `j` | `<Ctrl w>` `j` |  Normal   |
 | `Ctrl` `k` | `<Ctrl w>` `k` |  Normal   |
+| `Ctrl` `g` | `codeium#Accept` |  Insert   |
+| `Ctrl` `;` | `codeium#CycleCompletions(1)` |  Insert   |
+| `Ctrl` `,` | `codeium#CycleCompletions(-1)` |  Insert   |
+| `Ctrl` `x` | `codeium#Clear` |  Insert   |
 | `<leader>` `q` | `:wq`   |  Normal   |
 | `<leader>` `s` | `:sp`   |  Normal   |
 | `<leader>` `v` | `:vsp`  |  Normal   |
@@ -45,8 +50,6 @@
 | `<leader>` `of` | :Telescope oldfiles |  Normal   |
 
 
-### TODO
-- codeium nvim
 
 ### Reference
 - [learn-neovim](https://github.com/nshen/learn-neovim-lua)
